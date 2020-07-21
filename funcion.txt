@@ -1,0 +1,40 @@
+function saludar(nombre: string): string {
+return "Hola" + nombre;
+} 
+
+
+
+var nombre: string = 'Roger Federer'; 
+
+var edad:number = 36; 
+
+var algo: any = 'como cadena';
+algo = 1;
+algo = [1, 2, 3]; 
+
+
+function guardar(nombre: string): void {
+this.nombre = nombre;
+} 
+
+
+class Vehiculo {
+} 
+
+
+class Persona {
+nombre: string;
+saludar () {
+console.log ("Hola ", this.nombre);
+}
+} 
+
+
+
+ extends.
+
+ lineas.forEach ((linea) => console.log (linea)); 
+
+
+var saludo = `Hello $ {firstName} $ {lastName}`; 
+
